@@ -1,4 +1,4 @@
-import "../pages/Homepage.scss";
+import "../pages/ForYoupage.scss";
 import Iconagraphy from "../assets/images/homepage-iconagraphy.png";
 import NavBar from "../assets/images/nav-bar.png";
 import Carousel from "carousel-react-rcdev";
@@ -17,7 +17,7 @@ import Samsonite from "../assets/images/samsonite-card.png";
 import Viator from "../assets/images/viator-card.png";
 import Yeti from "../assets/images/yeti-card.png";
 
-export default function Homepage() {
+export default function ForYoupage() {
   return (
     <div className="background">
       <img src={Iconagraphy} alt="Homepage icons" className="info"></img>
