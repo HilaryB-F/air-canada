@@ -1,11 +1,17 @@
 import React from "react";
-import Clinique from "../assets/images/clinique-button";
-import Kiels from "../assets/images/kiels-button";
+import "./Quiz3.scss";
+import { Link } from "react-router-dom";
+import Arrow from "../assets/images/arrow.png";
+import Clinique from "../assets/images/clinique-button.png";
+import Kiels from "../assets/images/kiehls-button.png";
+import Dots from "../assets/images/dots3.png";
 export default function Quiz3() {
   return (
     <div className="main__container">
       <div className="main__back">
-        <img className="back" alt="back" src={Arrow}></img>
+        <Link to="/quiz2">
+          <img className="back" alt="back" src={Arrow}></img>
+        </Link>
       </div>
 
       <div className="quiz__info">
@@ -13,21 +19,25 @@ export default function Quiz3() {
           <p className="quiz__words">Tap to select...</p>
 
           <div className="quiz__choices">
-            <img className="quiz__choice1" alt="Choice1" src={Clinique}></img>
-            <img className="quiz__choice2" alt="Choice2" src={Kiels}></img>
+            <Link to="/">
+              <img className="quiz__choice1" alt="Choice1" src={Clinique}></img>
+            </Link>
+            <Link to="/">
+              <img className="quiz__choice2" alt="Choice2" src={Kiels}></img>
+            </Link>
           </div>
         </div>
 
         <div className="quiz__question">
           <h2 className="question">
-            Where do you prefer to shop for technology?
+            Where do you prefer to shop for beauty, health, and wellness?
           </h2>
 
           <div className="quiz__nav">
-            <Link className="quiz__nav-back" to="/">
+            <Link className="quiz__nav-back" to="/quiz2">
               Go back
             </Link>
-            <Link className="quiz__nav-forward" to="/quiz2">
+            <Link className="quiz__nav-forward" to="/">
               Skip question
             </Link>
           </div>
