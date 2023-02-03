@@ -1,0 +1,73 @@
+.back {
+  height: 1.5rem;
+  margin-left: 1rem;
+}
+
+.main__container {
+  background-image: url("../assets/images/background.png");
+  background-size: cover;
+  height: 100vh;
+}
+.main__back {
+  padding-top: 4rem;
+}
+
+.quiz__container {
+  display: flex;
+}
+.quiz__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 4.7rem;
+}
+.quiz__words {
+  color: #FFFFFF;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+.quiz__choice1 {
+  height: 11rem;
+  width: 11rem;
+}
+.quiz__choice2 {
+  height: 11rem;
+  width: 11rem;
+}
+.quiz__question {
+  background-color: #FFFFFF;
+  font-weight: 500;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 72%;
+  margin: auto;
+  margin-top: 1.5rem;
+  height: 7rem;
+}
+.quiz__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.quiz__nav-back {
+  font-size: 12px;
+  color: #000000;
+  padding-top: 1rem;
+}
+.quiz__nav-forward {
+  font-size: 12px;
+  color: #000000;
+  padding-top: 1rem;
+}
+
+.questions {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.dots {
+  display: block;
+  margin: 0 auto;
+  margin-top: 6rem;
+  width: 25%;
+}/*# sourceMappingURL=Quiz3.css.map */

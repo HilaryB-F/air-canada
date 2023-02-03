@@ -19,7 +19,7 @@ export default function Quiz3() {
           <p className="quiz__words">Tap to select...</p>
 
           <div className="quiz__choices">
-            <Link to="/">
+            <Link to="/foryou">
               <img className="quiz__choice1" alt="Choice1" src={Clinique}></img>
             </Link>
             <Link to="/foryou">
@@ -37,7 +37,7 @@ export default function Quiz3() {
             <Link className="quiz__nav-back" to="/quiz2">
               Go back
             </Link>
-            <Link className="quiz__nav-forward" to="/">
+            <Link className="quiz__nav-forward" to="/foryou">
               Skip question
             </Link>
           </div>
