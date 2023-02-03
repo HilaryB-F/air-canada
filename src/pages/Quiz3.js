@@ -22,7 +22,7 @@ export default function Quiz3() {
             <Link to="/">
               <img className="quiz__choice1" alt="Choice1" src={Clinique}></img>
             </Link>
-            <Link to="/">
+            <Link to="/foryou">
               <img className="quiz__choice2" alt="Choice2" src={Kiels}></img>
             </Link>
           </div>
