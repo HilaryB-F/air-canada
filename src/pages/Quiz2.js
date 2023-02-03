@@ -10,7 +10,9 @@ export default function Quiz2() {
   return (
     <div className="main__container">
       <div className="main__back">
+      <Link to="/">
         <img className="back" alt="back" src={Arrow}></img>
+        </Link>
       </div>
 
       <div className="quiz__info">
@@ -18,8 +20,12 @@ export default function Quiz2() {
           <p className="quiz__words">Tap to select...</p>
 
           <div className="quiz__choices">
+            <Link to ='/quiz3'>
             <img className="quiz__choice1" alt="Choice1" src={Asos}></img>
+            </Link>
+            <Link to ='/quiz3'>
             <img className="quiz__choice2" alt="Choice2" src={Ssense}></img>
+            </Link>
           </div>
         </div>
 
@@ -27,7 +33,7 @@ export default function Quiz2() {
           <h2 className="question">Where do you prefer to shop for fashion?</h2>
 
           <div className="quiz__nav">
-            <Link className="quiz__nav-back" to="/quiz1">
+            <Link className="quiz__nav-back" to="/quiz">
               Go back
             </Link>
             <Link className="quiz__nav-forward" to="/quiz3">

@@ -5,6 +5,7 @@ import Quiz1 from "./pages/Quiz1";
 import Quiz2 from "./pages/Quiz2";
 import Quiz3 from "./pages/Quiz3";
 
+
 function App() {
   return (
     <Router>
