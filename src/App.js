@@ -4,6 +4,7 @@ import Homepage from "./pages/Homepage";
 import Quiz1 from "./pages/Quiz1";
 import Quiz2 from "./pages/Quiz2";
 
+
 function App() {
   return (
     <Router>

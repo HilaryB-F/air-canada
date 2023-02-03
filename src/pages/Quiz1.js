@@ -10,7 +10,9 @@ export default function Quiz1() {
     <div className="main__container">
 
       <div className ="main__back">
+        <Link to="/">
         <img className="back" alt="back" src={Arrow}></img>
+        </Link>
       </div>
 
       <div className="quiz__info">
@@ -19,8 +21,12 @@ export default function Quiz1() {
           <p className="quiz__words">Tap to select...</p>
 
           <div className="quiz__choices">
+          <Link to='/quiz2'>
             <img className="quiz__choice1" alt="Choice1" src={BestBuy}></img>
+            </Link>
+            <Link to='/quiz2'>
             <img className="quiz__choice2" alt="Choice2" src={Amazon}></img>
+            </Link>
           </div>
         </div>
 
