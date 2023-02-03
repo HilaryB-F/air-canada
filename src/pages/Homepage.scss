@@ -1,13 +1,34 @@
-.bestbuy{
+.images{
     height: 11rem;
     width: 11rem;
 }
-
+.info{
+    margin-top: 4rem;
+    width: 350px;
+}
+.background{
+    background-image: url("../assets/images/homepage-background.png");
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    position: fixed;
+    bottom: 0px;
+}
+.offers{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 1rem;
+    margin-bottom: 0;
+}
 #prev{
-    position: relative;
-    left:100%;
+    display: none;
+    // position: relative;
+    // left:100%;
 }
 #next{
-    position: relative;
-    left: 100%;
+    display: none;
+    // position: relative;
+    // left: 100%;
 }
