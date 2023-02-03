@@ -29,7 +29,7 @@ export default function Quiz3() {
         </div>
 
         <div className="quiz__question">
-          <h2 className="question">
+          <h2 className="questions">
             Where do you prefer to shop for beauty, health, and wellness?
           </h2>
 
