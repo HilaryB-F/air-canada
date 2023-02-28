@@ -17,7 +17,7 @@ To have a look at our app mockup use these steps to install it
 
 1. Clone or download this repo 💫
 
-3. Install the dependencies in your front-end 💫
+2. Install the dependencies in your front-end 💫
 
    Run `npm install` or `npm i` in your terminal
    ```
@@ -25,7 +25,7 @@ To have a look at our app mockup use these steps to install it
       $ npm install
       ```
       
-4. Start your app 🎉
+3. Start your app 🎉
      ```
       $ npm start
     ```
